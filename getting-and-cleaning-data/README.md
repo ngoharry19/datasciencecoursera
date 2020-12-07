@@ -7,5 +7,5 @@ The sections in the analysis are:
 4. Appropriately label the data set with descriptive variable names.
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Code book
+# CodeBook
 The code book describing the variables and other information about the data set can be found in [Codebook.md](https://github.com/ngoharry19/datasciencecoursera/blob/master/getting-and-cleaning-data/CodeBook.md).
