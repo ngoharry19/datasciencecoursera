@@ -44,4 +44,4 @@ melt_data = melt(merged_data, id = ID_labels, measure.vars = var_labels)
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 # Apply mean function to dataset using dcast function
 tidy_data   = dcast(melt_data, Subject + ActivityLabel ~ variable, mean)
-write.table(tidy_data, file = "tidy_data.txt")
+write.table(tidy_data, file = "tidy_data.txt", row.names = FALSE)
