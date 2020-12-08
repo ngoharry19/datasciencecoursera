@@ -7,7 +7,7 @@ The sections in the analysis are:
 4. Appropriately label the data set with descriptive variable names.
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The main steps of run_analysis.R are:
+The main steps of [run_analysis.R](https://github.com/ngoharry19/datasciencecoursera/blob/master/getting-and-cleaning-data/run_analysis.R) are:
 * Loading the data.table package
 * Reading in activity labels, features, testing and training data sets
 * Extracting the mean and standard deviation for each measurement
