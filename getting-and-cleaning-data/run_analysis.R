@@ -1,5 +1,6 @@
-# Load data.table package
+# Load packages
 library(data.table)
+library(reshape2)
 
 # Get labels in the 2nd column
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")[, 2]
